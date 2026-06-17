@@ -3,36 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>Wireframe Layout Site</title>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
 
+    <!-- HEADER -->
     <header>
-        <h1>Welcome to My Website</h1>
+        <div class="logo">LOGO</div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero">
-        <h2>Your Hero Title</h2>
-        <p>This is a simple starter website built with HTML and CSS.</p>
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <h1>Header Title</h1>
+        <p>Your subtitle or description goes here.</p>
         <button>Learn More</button>
     </section>
 
-    <section class="content">
-        <h2>About This Site</h2>
-        <p>This is a clean template you can expand however you like.</p>
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <h2>ABOUT</h2>
+        <div class="about-grid">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="services">
+        <h2>SERVICES</h2>
+        <div class="services-grid">
+            <div class="service-box"></div>
+            <div class="service-box"></div>
+            <div class="service-box"></div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <h2>PORTFOLIO</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-box"></div>
+            <div class="portfolio-box"></div>
+            <div class="portfolio-box"></div>
+            <div class="portfolio-box"></div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <h2>CONTACT</h2>
+        <div class="contact-box"></div>
+        <button>Send Message</button>
     </section>
 
     <footer>
-        <p>© 2026 My Website. All rights reserved.</p>
+        <p>© 2026 Your Website</p>
     </footer>
 
 </body>
