@@ -7,8 +7,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #f4f4f4;
-    color: #333;
+    background: #5a1e1e;
+    color: #ffffff;
 }
 
 /* HEADER */
@@ -17,8 +17,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: #222;
-    color: white;
+    background: #1e2233;
+    color: rgb(87, 89, 114);
 }
 
 nav ul {
