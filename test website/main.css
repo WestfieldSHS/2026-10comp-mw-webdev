@@ -1,41 +1,32 @@
-/* General reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: "Georgia", "Times New Roman", serif;
-    background-color: #2b241c;
-    color: #f5e9d7;
+    background-color: #2b2b2b;
+    color: #ffffff;
     line-height: 1.6;
 }
 
 /* Header and navigation */
 .header {
-    background: #3b3024;
-    border-bottom: 2px solid #c9a66b;
+    background: #413fbb;
+    border-bottom: 2px solid #0f0e4d;
     padding: 20px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
 }
 
 .store-name h1 {
     font-size: 1.8rem;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #f5e9d7;
+    color: #ffffff;
 }
 
 .tagline {
     font-size: 0.9rem;
-    color: #d9c4a0;
+    color: #ffffff;
 }
 
 .nav a {
-    color: #f5e9
+   color: #000000;
+}
+.store-name {
+    text-align: center;
+}

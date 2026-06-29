@@ -1,0 +1,15 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "file:///C:/Users/mackenzie.wilson8/OneDrive%20-%20NSW%20Department%20of%20Education/10%20comp/fa2-webdev/2026-10comp-mw-webdev/test%20website/index.html",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
