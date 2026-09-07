@@ -19,12 +19,13 @@ nav{
   padding: 0;
   display: flex;
   justify-content: center;
+  position: sticky;
 }
 
 .body2 {
     font-family: "Times New Roman", Times, serif;
     background-color: #3ba8e7;
-    color: #ffffff;
+    color: #1e5372;
     line-height: 1.6;
 }
 .header2 {
@@ -33,10 +34,12 @@ nav{
     padding: 20px 40px; 
 }
 
+
+
 .body3{
     font-family: "Times New Roman", Times, serif;
     background-color: #9440e9;
-    color: #d398f5;
+    color: #510080;
     line-height: 1.6;
 }
 .header3{
@@ -46,10 +49,12 @@ nav{
 }
 
 
+
+
 .body4{
     font-family: "Times New Roman", Times, serif;
     background-color: #d8ad36;
-    color: #d398f5;
+    color: #996117;
     line-height: 1.6;
 }
 .header4{
@@ -59,10 +64,12 @@ nav{
 }
 
 
+
+
 .body5{
     font-family: "Times New Roman", Times, serif;
     background-color: #bd1c1c;
-    color: #d398f5;
+    color: #742626;
     line-height: 1.6;
 }
 .header5{
@@ -70,6 +77,8 @@ nav{
     border-bottom: 2px solid #bdae4e;
     padding: 20px 40px;
 }
+
+
 
 .web-name h1 {
     font-size: 3rem;
@@ -108,4 +117,71 @@ nav a:hover {
 img{
   display: block;
   margin: auto;
+}
+
+
+.accordion {
+
+  color: #000000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: 2px solid #022905;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+  background-color: #61a16a; 
+}
+
+
+.active, .accordion:hover {
+  background-color: #b586db; 
+}
+
+.panel  {
+  padding: 0 18px;
+  display: none;
+  background-color: #1f791c;
+  overflow: hidden;
+}
+
+.panel p{
+    font-size: 15px;
+    color: black;
+}
+
+.cassie {
+padding: 0 18px;
+  display: none;
+  background-color: hsl(24, 100%, 65%);
+  overflow: hidden;
+}
+
+.dean {
+padding: 0 18px;
+  display: none;
+  background-color: #ff4444;
+  overflow: hidden;
+}
+
+.micheal {
+padding: 0 18px;
+  display: none;
+  background-color: #1b37d8;
+  overflow: hidden;
+}
+
+.lia {
+padding: 0 18px;
+  display: none;
+  background-color: #3bffef;
+  overflow: hidden;
+}
+
+.solane {
+padding: 0 18px;
+  display: none;
+  background-color: #f157ff;
+  overflow: hidden;
 }

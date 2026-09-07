@@ -22,4 +22,56 @@
             <a href="badblood.html">Bad Blood</a>
         </nav>
     </header>
+
 </body>
+<body>
+
+<button class="accordion">Cassie Hobbes</button>
+<div class="panel cassie">
+  <p>this is cassie.</p>
+  <img class="img" src="c:\Users\mackenzie.wilson8\OneDrive - NSW Department of Education\Pictures\Screenshots\Screenshot 2026-08-17 104345.png"  width="150" height="150">  
+</div>
+
+<button class="accordion">Dean redding</button>
+<div class="panel dean">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Micheal Townsend</button>
+<div class="panel micheal">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">lia zhang</button>
+<div class="panel lia">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">solane tavish</button>
+<div class="panel solane">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
+
+
+     
+     <img class="img" src="c:\Users\mackenzie.wilson8\OneDrive - NSW Department of Education\Pictures\Screenshots\Screenshot 2026-08-17 104301.png"  width="450" height="450">
