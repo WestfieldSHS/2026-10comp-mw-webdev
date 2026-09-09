@@ -1,9 +1,15 @@
 
-body {
+.body1 {
     font-family: "Times New Roman", Times, serif;
     background-color: #34923a;
     color: #ffffff;
     line-height: 1.6;
+}
+
+.body1 p {
+  font-size: 25px;
+  margin-top: 10px;
+  margin: 20px
 }
 
 .header {
@@ -13,7 +19,7 @@ body {
     padding: 20px 40px;
 }
 
-nav{
+.nav{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -22,12 +28,39 @@ nav{
   position: sticky;
 }
 
+footer {
+  width: 100%;
+  background-color: #0b440f;
+  border-top: 3px solid #bdae4e;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 10;
+
+}
+
 .body2 {
     font-family: "Times New Roman", Times, serif;
     background-color: #3ba8e7;
-    color: #1e5372;
+    color: #143a50;
     line-height: 1.6;
+} 
+
+.body2 p {
+  font-size: 25px;
+  margin-top: 10px;
+  margin: 20px
+
 }
+
+.body2 h2{
+  font-size: 30px;
+  margin: 40px
+}
+
 .header2 {
     background: #182086;
     border-bottom: 2px solid #bdae4e;
@@ -92,21 +125,21 @@ nav{
     color: #ffffff;
 }
 
-body {
+.body {
   margin: 0;
   padding: 0;
 }
 
 
 
-nav a {
+.nav a {
   display: block;
   color: hsl(0, 0%, 100%);
   padding: 24px 26px;
   text-decoration: none;
 }
 
-nav a:hover {
+.nav a:hover {
   background-color: #111111;
 }
 
@@ -114,9 +147,9 @@ nav a:hover {
     text-align: center;
 }
 
-img{
+.img{
   display: block;
-  margin: auto;
+  margin: 20px;
 }
 
 
@@ -147,7 +180,7 @@ img{
 }
 
 .panel p{
-    font-size: 15px;
+    font-size: 20px;
     color: black;
 }
 
