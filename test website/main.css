@@ -19,7 +19,7 @@
     padding: 20px 40px;
 }
 
-.nav{
+nav{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -58,7 +58,7 @@ footer {
 
 .body2 h2{
   font-size: 30px;
-  margin: 40px
+  margin: 15px
 }
 
 .header2 {
@@ -80,7 +80,17 @@ footer {
     border-bottom: 2px solid #bdae4e;
     padding: 20px 40px;
 }
+.body3 p {
+  font-size: 25px;
+  margin-top: 10px;
+  margin: 20px
 
+}
+
+.body3 h2{
+  font-size: 30px;
+  margin: 15px
+}
 
 
 
@@ -95,7 +105,17 @@ footer {
     border-bottom: 2px solid #bdae4e;
     padding: 20px 40px;
 }
+.body4 p {
+  font-size: 25px;
+  margin-top: 10px;
+  margin: 20px
 
+}
+
+.body4 h2{
+  font-size: 30px;
+  margin: 15px
+}
 
 
 
@@ -132,14 +152,14 @@ footer {
 
 
 
-.nav a {
+nav a {
   display: block;
   color: hsl(0, 0%, 100%);
   padding: 24px 26px;
   text-decoration: none;
 }
 
-.nav a:hover {
+nav a:hover {
   background-color: #111111;
 }
 
@@ -217,4 +237,10 @@ padding: 0 18px;
   display: none;
   background-color: #f157ff;
   overflow: hidden;
+}
+
+.warnings {
+  font-size: 45px;
+  color: #ff0000;
+  margin: 15px   
 }
