@@ -121,14 +121,25 @@ footer {
 
 .body5{
     font-family: "Times New Roman", Times, serif;
-    background-color: #bd1c1c;
-    color: #742626;
+    background-color: #641111;
+    color: #e48181;
     line-height: 1.6;
 }
 .header5{
-    background: #5a1919;
+    background: #470606;
     border-bottom: 2px solid #bdae4e;
     padding: 20px 40px;
+}
+.body5 p {
+  font-size: 25px;
+  margin-top: 10px;
+  margin: 20px
+
+}
+
+.body5 h2{
+  font-size: 30px;
+  margin: 15px
 }
 
 
